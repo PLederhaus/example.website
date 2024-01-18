@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>
+            Sangria's Mexican Grill
+        </title>
+        <link rel = "stylesheet" href = "css/styles.css">
+    </head>
+    <body>
+        <div id = "wrap">
+            <header>
+                <h1>
+                    <img src = "media/sangriasbanner.jpg" width = 1000 height = 300 alt = "Sangrias Mexican Grill Banner">
+                </h1>
+            </header>
+            <nav class = "sidebar">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "about.html">About Us</a></li>
+                    <li><a href = "menu.html">Our Menu</a></li>
+                    <li><a href = "gallery.html">Gallery</a></li>
+                    <li><a href = "contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+                <section class = "form">
+                <form id = "contact" method = "post" action = "submit.php">
+                    <br>
+                    <fieldset>
+                        <legend>
+                            Join Our Newsletter!
+                        </legend>
+                        <p>
+                            <label for = "date">Today's Date</label>
+                            <input type = "date" id = "date" name = "date">
+                        </p>
+                        <p>
+                            <label for = "fName">First Name:</label>
+                            <input type = "text" id = "fName" name = "fName" required placeholder = "Type your first name">*
+                        </p>
+                        <p>
+                            <label for = "lName">Last Name:</label>
+                            <input type = "text" id = "lName" name = "lName" required placeholder = "Type your last name">*
+                        </p>
+                        <p>
+                            <label for = "birthday">Birth Date</label>
+                            <input type = "date" id = "birthday" name = "birthday">
+                        </p>
+                        <p>
+                            <label for = "street">Street Address:</label>
+                            <input type = "text" id = "street" name = "street">
+                        </p>
+                        <p>
+                            <label for = "state">State:</label>
+                            <input type = "text" id = "state" name = "state">
+                        </p>
+                        <p>
+                            <label for = "zip">ZIP Code:</label>
+                            <input type = "number" id = "zip" name = "zip">
+                        </p>
+                        <p>
+                            <label for = "phone">Phone Number</label>
+                            <input type = "number" id = "phone" name = "phone">
+                        </p>
+                        <p>
+                            <label for = "favfood">What's Your Favorite Kind of Food?</label>
+                            <input type = "text" id = "favfood" name = "favfood">
+                        </p>
+                        <p>
+                            <label for = "freq">How often do you go out to dinner each month?</label>
+                            5 or more times a month
+                            <input type = "radio" name = "eat" value = "5+ days a month">
+                            3-4 times a month
+                            <input type = "radio" name = "eat" value = "3-4 times a month">
+                            1-2 times a month
+                            <input type = "radio" name = "eat" value = "1-2 times a month">
+                            I do not go out to dinner
+                            <input type = "radio" name = "eat" value = "I do not go out to dinner"> 
+                        </p>
+                        <p>
+                            <label for = "like">If you've dined with us before, which of our dishes have you enjoyed?</label>
+                            Molcajete
+                            <input type = "checkbox" name = "molcajete" value = "Molcajete">
+                            Carnita Sangria's
+                            <input type = "checkbox" name = "carnita" value = "Carnita Sangria's">
+                            Flaming Tequila Shrimp
+                            <input type = "checkbox" name = "shrimp" value = "Flaming Tequila Shrimp">
+                            Sangria's Classic
+                            <input type = "checkbox" name = "classic" value = "Sangria's Classic">
+                            Gringo
+                            <input type = "checkbox" name = "gringo" value = "Gringo">
+                            Macho
+                            <input type = "checkbox" name = "macho" value = "Macho">
+                        </p>
+                        <p>
+                            <label for = "feedback">Any feedback for us on the site or this form?</label>
+                            <input type = "text" id = "feedback" name = "feedback">
+                        </p>
+                        <p>
+                            * required
+                        </p>
+                        <p>
+                            <input type = "submit" value = "Submit Your Form">
+                        </p>
+                    </fieldset>
+                </form>
+            <footer>
+                <p id = "footerleft">
+                    <small>Location: 215 S. Memorial Drive Appleton WI 54911</small>
+                    <br>
+                    <small>&copy;Sangria's Mexican Grill 2023</small>
+                    <br>
+                    <small>&copy;Garnet Amelia Web Design 2023</small>
+                    <br>
+                    <small>Have a question or comment about the site? <a href = "feedback.html">Contact Us Here!</a></small>
+                </p>
+                <p id = "footerright">
+                    <small>
+                        Hours:
+                        <br>
+                        Weekdays: 11:00AM - 9:00PM
+                        <br>
+                        Friday and Saturday: 11:00AM - 8:00PM
+                        <br>
+                        Sunday: 11:00AM - 8:00PM
+                        <br>
+                        Give us a call: 920-955-3755
+                    </small>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
